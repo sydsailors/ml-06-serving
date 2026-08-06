@@ -67,7 +67,7 @@ See [docs/your-files.md](docs/your-files.md) for more.
 
 Links:
 
-- [ml_06_case.ipynb](notebooks/ml_06_case.ipynb)
+- [ml_06_serve_model.ipynb](notebooks/ml_06_serve_model.ipynb)
 
 ## Working Files
 
@@ -125,7 +125,7 @@ open a machine terminal in your `Repos` folder:
 
 ```shell
 # Replace username with YOUR GitHub username.
-git clone https://github.com/username/ml-06-serving
+git clone https://github.com/sydsailors/ml-06-serving
 
 cd ml-06-serving
 code .
