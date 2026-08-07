@@ -590,3 +590,104 @@ dtype: int64
 2026-08-07 15:53:20 | INFO | M06 | ========================
 2026-08-07 15:53:20 | INFO | M06 | Executed successfully!
 2026-08-07 15:53:20 | INFO | M06 | ========================
+2026-08-07 15:59:55 | INFO | M06 | === RUN START ===
+2026-08-07 15:59:55 | INFO | M06 | project=M06
+2026-08-07 15:59:55 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 15:59:55 | INFO | M06 | python=3.14.5
+2026-08-07 15:59:55 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 15:59:55 | INFO | M06 | shell=zsh
+2026-08-07 15:59:55 | INFO | M06 | cwd=notebooks
+2026-08-07 15:59:55 | INFO | M06 | github_actions=False
+2026-08-07 15:59:56 | INFO | M06 | === RUN START ===
+2026-08-07 15:59:56 | INFO | M06 | project=M06
+2026-08-07 15:59:56 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 15:59:56 | INFO | M06 | python=3.14.5
+2026-08-07 15:59:56 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 15:59:56 | INFO | M06 | shell=zsh
+2026-08-07 15:59:56 | INFO | M06 | cwd=notebooks
+2026-08-07 15:59:56 | INFO | M06 | github_actions=False
+2026-08-07 15:59:56 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 15:59:56 | ERROR | M06 | Model file not found: artifacts/model.joblib
+2026-08-07 16:01:55 | INFO | M06 | === RUN START ===
+2026-08-07 16:01:55 | INFO | M06 | project=M06
+2026-08-07 16:01:55 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 16:01:55 | INFO | M06 | python=3.14.5
+2026-08-07 16:01:55 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 16:01:55 | INFO | M06 | shell=zsh
+2026-08-07 16:01:55 | INFO | M06 | cwd=.
+2026-08-07 16:01:55 | INFO | M06 | github_actions=False
+2026-08-07 16:01:55 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 16:01:55 | INFO | M06 | Model loaded successfully
+2026-08-07 16:01:55 | INFO | M06 | === RUN START ===
+2026-08-07 16:01:55 | INFO | M06 | project=M06
+2026-08-07 16:01:55 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 16:01:55 | INFO | M06 | python=3.14.5
+2026-08-07 16:01:55 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 16:01:55 | INFO | M06 | shell=zsh
+2026-08-07 16:01:55 | INFO | M06 | cwd=.
+2026-08-07 16:01:55 | INFO | M06 | github_actions=False
+2026-08-07 16:01:55 | INFO | M06 | Confirming installation:
+2026-08-07 16:01:55 | INFO | M06 |   python:       3.14.5
+2026-08-07 16:01:55 | INFO | M06 |   pandas:       3.0.5
+2026-08-07 16:01:55 | INFO | M06 | Model artifact will be saved to: artifacts/model.joblib
+2026-08-07 16:02:00 | INFO | M06 | Loading dataset: Medical Cost Prediction
+2026-08-07 16:02:00 | INFO | M06 | Loading dataset: Medical Cost Prediction
+2026-08-07 16:02:00 | INFO | M06 | Loaded: 5000 rows (instances), 20 columns
+2026-08-07 16:02:00 | INFO | M06 | Model rows after cleaning: 5000
+2026-08-07 16:02:00 | INFO | M06 | Model rows: 5000
+2026-08-07 16:02:00 | INFO | M06 | Target: annual_medical_cost
+2026-08-07 16:02:00 | INFO | M06 | Target range: $404.95 - $44,792.10
+2026-08-07 16:02:04 | INFO | M06 | Train instances: 4000
+2026-08-07 16:02:04 | INFO | M06 | Test instances:  1000
+2026-08-07 16:02:04 | INFO | M06 | Train instances: 4000
+2026-08-07 16:02:04 | INFO | M06 | Test instances:  1000
+2026-08-07 16:02:21 | INFO | M06 | Train instances: 4000
+2026-08-07 16:02:21 | INFO | M06 | Test instances:  1000
+2026-08-07 16:02:21 | INFO | M06 | Train instances: 4000
+2026-08-07 16:02:21 | INFO | M06 | Test instances:  1000
+2026-08-07 16:02:25 | INFO | M06 | Training RandomForestRegressor on 4000 instances
+2026-08-07 16:02:29 | INFO | M06 | Training complete
+2026-08-07 16:02:31 | INFO | M06 | Saved model to: artifacts/model.joblib
+2026-08-07 16:02:31 | INFO | M06 | Reloaded model from: artifacts/model.joblib
+2026-08-07 16:02:38 | INFO | M06 | Prediction made from features [45.0, 31.2, 0.0, 1.0, 1.0, 0.0, 4.0, 1.0, 3.0, 8500.0]: 7855.437550000008
+2026-08-07 16:02:38 | INFO | M06 | Valid payload -> {'predicted_annual_medical_cost': 7855.44}
+2026-08-07 16:02:38 | INFO | M06 | Invalid payload handled cleanly -> ValueError: Missing required feature: 'smoker'
+2026-08-07 16:02:49 | INFO | M06 | ========================
+2026-08-07 16:02:49 | INFO | M06 | SUMMARY
+2026-08-07 16:02:49 | INFO | M06 | ========================
+2026-08-07 16:02:49 | INFO | M06 | Dataset:  Medical Cost Prediction
+2026-08-07 16:02:49 | INFO | M06 | Target:   annual_medical_cost
+2026-08-07 16:02:49 | INFO | M06 | Features: ['age', 'bmi', 'smoker', 'diabetes', 'hypertension', 'heart_disease', 'doctor_visits_per_year', 'hospital_admissions', 'medication_count', 'previous_year_cost']
+2026-08-07 16:02:49 | INFO | M06 | Artifact: artifacts/model.joblib
+2026-08-07 16:02:49 | INFO | M06 | ========================
+2026-08-07 17:05:51 | INFO | M06 | === RUN START ===
+2026-08-07 17:05:51 | INFO | M06 | project=M06
+2026-08-07 17:05:51 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 17:05:51 | INFO | M06 | python=3.14.5
+2026-08-07 17:05:51 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 17:05:51 | INFO | M06 | shell=zsh
+2026-08-07 17:05:51 | INFO | M06 | cwd=.
+2026-08-07 17:05:51 | INFO | M06 | github_actions=False
+2026-08-07 17:05:51 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 17:05:51 | INFO | M06 | Model loaded successfully
+2026-08-07 17:05:57 | INFO | M06 | === RUN START ===
+2026-08-07 17:05:57 | INFO | M06 | project=M06
+2026-08-07 17:05:57 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 17:05:57 | INFO | M06 | python=3.14.5
+2026-08-07 17:05:57 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 17:05:57 | INFO | M06 | shell=zsh
+2026-08-07 17:05:57 | INFO | M06 | cwd=.
+2026-08-07 17:05:57 | INFO | M06 | github_actions=False
+2026-08-07 17:05:57 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 17:05:58 | INFO | M06 | Model loaded successfully
+2026-08-07 17:06:39 | INFO | M06 | === RUN START ===
+2026-08-07 17:06:39 | INFO | M06 | project=M06
+2026-08-07 17:06:39 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 17:06:39 | INFO | M06 | python=3.14.5
+2026-08-07 17:06:39 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 17:06:39 | INFO | M06 | shell=zsh
+2026-08-07 17:06:39 | INFO | M06 | cwd=.
+2026-08-07 17:06:39 | INFO | M06 | github_actions=False
+2026-08-07 17:06:39 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 17:06:40 | INFO | M06 | Model loaded successfully
+2026-08-07 17:06:42 | INFO | M06 | Prediction made from features [45.0, 31.2, 0.0, 1.0, 1.0, 0.0, 4.0, 1.0, 3.0, 8500.0]: 7855.437550000008
