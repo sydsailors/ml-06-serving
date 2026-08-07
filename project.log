@@ -480,3 +480,21 @@ dtype: int64
 2026-08-07 13:55:42 | INFO | M06 | github_actions=False
 2026-08-07 13:55:42 | INFO | M06 | Loading model from: artifacts/model.joblib
 2026-08-07 13:55:43 | INFO | M06 | Model loaded successfully
+2026-08-07 15:42:28 | INFO | M06 | === RUN START ===
+2026-08-07 15:42:28 | INFO | M06 | project=M06
+2026-08-07 15:42:28 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 15:42:28 | INFO | M06 | python=3.14.5
+2026-08-07 15:42:28 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 15:42:28 | INFO | M06 | shell=zsh
+2026-08-07 15:42:28 | INFO | M06 | cwd=.
+2026-08-07 15:42:28 | INFO | M06 | github_actions=False
+2026-08-07 15:42:28 | INFO | M06 | Loading dataset: Medical Cost Prediction
+2026-08-07 15:42:50 | INFO | M06 | === RUN START ===
+2026-08-07 15:42:50 | INFO | M06 | project=M06
+2026-08-07 15:42:50 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 15:42:50 | INFO | M06 | python=3.14.5
+2026-08-07 15:42:50 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 15:42:50 | INFO | M06 | shell=zsh
+2026-08-07 15:42:50 | INFO | M06 | cwd=.
+2026-08-07 15:42:50 | INFO | M06 | github_actions=False
+2026-08-07 15:42:50 | INFO | M06 | Loading dataset: Medical Cost Prediction
