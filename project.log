@@ -285,3 +285,188 @@ dtype: int64
 2026-08-05 15:12:54 | INFO | M06 | Features: ['bill_length_mm', 'bill_depth_mm', 'flipper_length_mm', 'body_mass_g']
 2026-08-05 15:12:54 | INFO | M06 | Artifact: artifacts/model.joblib
 2026-08-05 15:12:54 | INFO | M06 | ========================
+2026-08-07 12:59:11 | INFO | M06 | === RUN START ===
+2026-08-07 12:59:11 | INFO | M06 | project=M06
+2026-08-07 12:59:11 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 12:59:11 | INFO | M06 | python=3.14.5
+2026-08-07 12:59:11 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 12:59:11 | INFO | M06 | shell=zsh
+2026-08-07 12:59:11 | INFO | M06 | cwd=.
+2026-08-07 12:59:11 | INFO | M06 | github_actions=False
+2026-08-07 12:59:11 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 12:59:11 | INFO | M06 | Model loaded successfully
+2026-08-07 12:59:18 | INFO | M06 | === RUN START ===
+2026-08-07 12:59:18 | INFO | M06 | project=M06
+2026-08-07 12:59:18 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 12:59:18 | INFO | M06 | python=3.14.5
+2026-08-07 12:59:18 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 12:59:18 | INFO | M06 | shell=zsh
+2026-08-07 12:59:18 | INFO | M06 | cwd=.
+2026-08-07 12:59:18 | INFO | M06 | github_actions=False
+2026-08-07 12:59:18 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 12:59:18 | INFO | M06 | Model loaded successfully
+2026-08-07 13:42:11 | INFO | M06 | === RUN START ===
+2026-08-07 13:42:11 | INFO | M06 | project=M06
+2026-08-07 13:42:11 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:42:11 | INFO | M06 | python=3.14.5
+2026-08-07 13:42:11 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:42:11 | INFO | M06 | shell=zsh
+2026-08-07 13:42:11 | INFO | M06 | cwd=.
+2026-08-07 13:42:11 | INFO | M06 | github_actions=False
+2026-08-07 13:42:11 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 13:42:11 | INFO | M06 | Model loaded successfully
+2026-08-07 13:42:22 | INFO | M06 | === RUN START ===
+2026-08-07 13:42:22 | INFO | M06 | project=M06
+2026-08-07 13:42:22 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:42:22 | INFO | M06 | python=3.14.5
+2026-08-07 13:42:22 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:42:22 | INFO | M06 | shell=zsh
+2026-08-07 13:42:22 | INFO | M06 | cwd=.
+2026-08-07 13:42:22 | INFO | M06 | github_actions=False
+2026-08-07 13:42:22 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 13:42:22 | INFO | M06 | Model loaded successfully
+2026-08-07 13:42:30 | INFO | M06 | === RUN START ===
+2026-08-07 13:42:30 | INFO | M06 | project=M06
+2026-08-07 13:42:30 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:42:30 | INFO | M06 | python=3.14.5
+2026-08-07 13:42:30 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:42:30 | INFO | M06 | shell=zsh
+2026-08-07 13:42:30 | INFO | M06 | cwd=.
+2026-08-07 13:42:30 | INFO | M06 | github_actions=False
+2026-08-07 13:42:30 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 13:42:30 | INFO | M06 | Model loaded successfully
+2026-08-07 13:42:34 | INFO | M06 | === RUN START ===
+2026-08-07 13:42:34 | INFO | M06 | project=M06
+2026-08-07 13:42:34 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:42:34 | INFO | M06 | python=3.14.5
+2026-08-07 13:42:34 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:42:34 | INFO | M06 | shell=zsh
+2026-08-07 13:42:34 | INFO | M06 | cwd=.
+2026-08-07 13:42:34 | INFO | M06 | github_actions=False
+2026-08-07 13:42:34 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 13:42:34 | INFO | M06 | Model loaded successfully
+2026-08-07 13:42:45 | INFO | M06 | === RUN START ===
+2026-08-07 13:42:45 | INFO | M06 | project=M06
+2026-08-07 13:42:45 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:42:45 | INFO | M06 | python=3.14.5
+2026-08-07 13:42:45 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:42:45 | INFO | M06 | shell=zsh
+2026-08-07 13:42:45 | INFO | M06 | cwd=.
+2026-08-07 13:42:45 | INFO | M06 | github_actions=False
+2026-08-07 13:42:45 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 13:42:45 | INFO | M06 | Model loaded successfully
+2026-08-07 13:42:48 | INFO | M06 | === RUN START ===
+2026-08-07 13:42:48 | INFO | M06 | project=M06
+2026-08-07 13:42:48 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:42:48 | INFO | M06 | python=3.14.5
+2026-08-07 13:42:48 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:42:48 | INFO | M06 | shell=zsh
+2026-08-07 13:42:48 | INFO | M06 | cwd=.
+2026-08-07 13:42:48 | INFO | M06 | github_actions=False
+2026-08-07 13:42:48 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 13:42:48 | INFO | M06 | Model loaded successfully
+2026-08-07 13:42:59 | INFO | M06 | === RUN START ===
+2026-08-07 13:42:59 | INFO | M06 | project=M06
+2026-08-07 13:42:59 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:42:59 | INFO | M06 | python=3.14.5
+2026-08-07 13:42:59 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:42:59 | INFO | M06 | shell=zsh
+2026-08-07 13:42:59 | INFO | M06 | cwd=.
+2026-08-07 13:42:59 | INFO | M06 | github_actions=False
+2026-08-07 13:42:59 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 13:42:59 | INFO | M06 | Model loaded successfully
+2026-08-07 13:43:38 | INFO | M06 | === RUN START ===
+2026-08-07 13:43:38 | INFO | M06 | project=M06
+2026-08-07 13:43:38 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:43:38 | INFO | M06 | python=3.14.5
+2026-08-07 13:43:38 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:43:38 | INFO | M06 | shell=zsh
+2026-08-07 13:43:38 | INFO | M06 | cwd=.
+2026-08-07 13:43:38 | INFO | M06 | github_actions=False
+2026-08-07 13:43:38 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 13:43:38 | INFO | M06 | Model loaded successfully
+2026-08-07 13:43:42 | INFO | M06 | === RUN START ===
+2026-08-07 13:43:42 | INFO | M06 | project=M06
+2026-08-07 13:43:42 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:43:42 | INFO | M06 | python=3.14.5
+2026-08-07 13:43:42 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:43:42 | INFO | M06 | shell=zsh
+2026-08-07 13:43:42 | INFO | M06 | cwd=.
+2026-08-07 13:43:42 | INFO | M06 | github_actions=False
+2026-08-07 13:43:42 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 13:43:42 | INFO | M06 | Model loaded successfully
+2026-08-07 13:44:18 | INFO | M06 | === RUN START ===
+2026-08-07 13:44:18 | INFO | M06 | project=M06
+2026-08-07 13:44:18 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:44:18 | INFO | M06 | python=3.14.5
+2026-08-07 13:44:18 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:44:18 | INFO | M06 | shell=zsh
+2026-08-07 13:44:18 | INFO | M06 | cwd=.
+2026-08-07 13:44:18 | INFO | M06 | github_actions=False
+2026-08-07 13:44:18 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 13:44:18 | INFO | M06 | Model loaded successfully
+2026-08-07 13:44:23 | INFO | M06 | === RUN START ===
+2026-08-07 13:44:23 | INFO | M06 | project=M06
+2026-08-07 13:44:23 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:44:23 | INFO | M06 | python=3.14.5
+2026-08-07 13:44:23 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:44:23 | INFO | M06 | shell=zsh
+2026-08-07 13:44:23 | INFO | M06 | cwd=.
+2026-08-07 13:44:23 | INFO | M06 | github_actions=False
+2026-08-07 13:44:23 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 13:44:23 | INFO | M06 | Model loaded successfully
+2026-08-07 13:52:21 | INFO | M06 | === RUN START ===
+2026-08-07 13:52:21 | INFO | M06 | project=M06
+2026-08-07 13:52:21 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:52:21 | INFO | M06 | python=3.14.5
+2026-08-07 13:52:21 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:52:21 | INFO | M06 | shell=zsh
+2026-08-07 13:52:21 | INFO | M06 | cwd=.
+2026-08-07 13:52:21 | INFO | M06 | github_actions=False
+2026-08-07 13:52:21 | INFO | M06 | Load data.................
+2026-08-07 13:52:21 | INFO | M06 | Loading dataset: penguins
+2026-08-07 13:52:21 | INFO | M06 | Loaded: 344 rows, 7 columns
+2026-08-07 13:52:21 | INFO | M06 | Model rows (after dropping missing): 342
+2026-08-07 13:52:21 | INFO | M06 | Split data................
+2026-08-07 13:52:22 | INFO | M06 | Train instances: 273
+2026-08-07 13:52:22 | INFO | M06 | Test instances:  69
+2026-08-07 13:52:22 | INFO | M06 | Train model...............
+2026-08-07 13:52:22 | INFO | M06 | Training RandomForestClassifier on 273 instances
+2026-08-07 13:52:22 | INFO | M06 | Training complete
+2026-08-07 13:52:22 | INFO | M06 | Evaluate model............
+2026-08-07 13:52:22 | INFO | M06 | Test accuracy: 1.000
+2026-08-07 13:52:22 | INFO | M06 | Save model................
+2026-08-07 13:52:22 | INFO | M06 | Saved model to: artifacts/model.joblib
+2026-08-07 13:52:22 | INFO | M06 | Summarize.................
+2026-08-07 13:52:22 | INFO | M06 | ========================
+2026-08-07 13:52:22 | INFO | M06 | SUMMARY
+2026-08-07 13:52:22 | INFO | M06 | ========================
+2026-08-07 13:52:22 | INFO | M06 | Dataset:  penguins
+2026-08-07 13:52:22 | INFO | M06 | Target:   species
+2026-08-07 13:52:22 | INFO | M06 | Features: ['bill_length_mm', 'bill_depth_mm', 'flipper_length_mm', 'body_mass_g']
+2026-08-07 13:52:22 | INFO | M06 | Artifact: artifacts/model.joblib
+2026-08-07 13:52:22 | INFO | M06 | ========================
+2026-08-07 13:52:22 | INFO | M06 | ========================
+2026-08-07 13:52:22 | INFO | M06 | Executed successfully!
+2026-08-07 13:52:22 | INFO | M06 | ========================
+2026-08-07 13:53:20 | INFO | M06 | === RUN START ===
+2026-08-07 13:53:20 | INFO | M06 | project=M06
+2026-08-07 13:53:20 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:53:20 | INFO | M06 | python=3.14.5
+2026-08-07 13:53:20 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:53:20 | INFO | M06 | shell=zsh
+2026-08-07 13:53:20 | INFO | M06 | cwd=.
+2026-08-07 13:53:20 | INFO | M06 | github_actions=False
+2026-08-07 13:53:20 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 13:53:21 | INFO | M06 | Model loaded successfully
+2026-08-07 13:53:26 | INFO | M06 | === RUN START ===
+2026-08-07 13:53:26 | INFO | M06 | project=M06
+2026-08-07 13:53:26 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 13:53:26 | INFO | M06 | python=3.14.5
+2026-08-07 13:53:26 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 13:53:26 | INFO | M06 | shell=zsh
+2026-08-07 13:53:26 | INFO | M06 | cwd=.
+2026-08-07 13:53:26 | INFO | M06 | github_actions=False
+2026-08-07 13:53:26 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 13:53:26 | INFO | M06 | Model loaded successfully
+2026-08-07 13:54:10 | INFO | M06 | Prediction made from features [39.1, 18.7, 181.0, 3750.0]: Adelie
