@@ -67,7 +67,7 @@ See [docs/your-files.md](docs/your-files.md) for more.
 
 Links:
 
-- [ml_06_serve_model.ipynb](notebooks/ml_06_serve_model.ipynb)
+- [ml_06_serve_medical.ipynb](notebooks/ml_06_serve_medical.ipynb)
 
 ## Working Files
 
@@ -124,7 +124,6 @@ After you get a copy of this repo in your own GitHub account,
 open a machine terminal in your `Repos` folder:
 
 ```shell
-# Replace username with YOUR GitHub username.
 git clone https://github.com/sydsailors/ml-06-serving
 
 cd ml-06-serving
@@ -160,7 +159,7 @@ uv run python -m mlstudio.model_builder_case
 # CUSTOM: After completing your custom project,
 # Add the command to
 # train your custom model and save it to artifacts/model_yourname.joblib
-# uv run python -m mlstudio.model_builder_yourname
+uv run python -m mlstudio.model_builder_medical
 
 # run common chores
 uv run ruff format .
@@ -230,8 +229,8 @@ Open a second terminal. Right-click to rename this terminal "server".
 Run:
 
 ```shell
-# Task 2. Start the example server
-uv run fastapi dev src/mlstudio/serve_case.py
+# Task 2. Start the medical server
+uv run fastapi dev src/mlstudio/serve_medical.py
 ```
 
 Keep this terminal open.
@@ -319,8 +318,9 @@ The `curl` command means "check url".
 # Task 3. Send a request to the server
 
 curl -X POST http://127.0.0.1:8000/predict `
-     -H "Content-Type: application/json" `
-     -d '{"bill_length_mm": 39.1, "bill_depth_mm": 18.7, "flipper_length_mm": 181, "body_mass_g": 3750}'
+         -H "Content-Type: application/json" `
+         -d '{"age": 45, "bmi": 31.2, "smoker": 0, "diabetes": 1, "hypertension": 1,
+        "heart_disease": 0, "doctor_visits_per_year": 4, "hospital_admissions": 1, "medication_count": 3, "previous_year_cost": 8500}'
 ```
 
 ### macOS / Linux
@@ -329,8 +329,9 @@ curl -X POST http://127.0.0.1:8000/predict `
 # Task 3. Send a request to the server
 
 curl -X POST http://127.0.0.1:8000/predict \
-     -H "Content-Type: application/json" \
-     -d '{"bill_length_mm": 39.1, "bill_depth_mm": 18.7, "flipper_length_mm": 181, "body_mass_g": 3750}'
+         -H "Content-Type: application/json" \
+         -d '{"age": 45, "bmi": 31.2, "smoker": 0, "diabetes": 1, "hypertension": 1,
+        "heart_disease": 0, "doctor_visits_per_year": 4, "hospital_admissions": 1, "medication_count": 3, "previous_year_cost": 8500}'
 ```
 
 Should return the predicted result as JSON data:
