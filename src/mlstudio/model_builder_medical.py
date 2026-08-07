@@ -39,9 +39,7 @@ log_header(LOG, "M06")
 
 DATASET_NAME: Final[str] = "Medical Cost Prediction"
 
-LOG.info(f"Loading dataset: {DATASET_NAME}")
-df: pd.DataFrame = pd.read_csv("../data/raw/medical_cost_prediction_dataset.csv")
-LOG.info(f"Loaded: {df.shape[0]} rows (instances), {df.shape[1]} columns")
+DATA_PATH: Final[Path] = Path("data/raw/medical_cost_prediction_dataset.csv")
 
 # STEP 1. Pick the target variable we want to predict.
 TARGET_COL: Final[str] = "annual_medical_cost"
@@ -77,19 +75,22 @@ pd.set_option("display.width", 120)
 
 
 def load_data() -> pd.DataFrame:
-    """Load the medical cost dataset and drop missing required values."""
+    """Load the medical cost prediction dataset."""
+
     LOG.info(f"Loading dataset: {DATASET_NAME}")
 
-    df: pd.DataFrame = pd.read_csv(DATASET_NAME)
-    LOG.info(f"Loaded: {df.shape[0]} rows, {df.shape[1]} columns")
+    df: pd.DataFrame = pd.read_csv(DATA_PATH)
 
-    # Convert smoker from yes/no to 0/1
-    df["smoker"] = df["smoker"].map({"yes": 1, "no": 0})
+    LOG.info(f"Loaded: {df.shape[0]} rows (instances), {df.shape[1]} columns")
+
+    # Convert smoker yes/no to 1/0
+    df["smoker"] = df["smoker"].map({"Yes": 1, "No": 0})
 
     required: list[str] = [TARGET_COL, *FEATURE_COLS]
+
     df_model: pd.DataFrame = df.dropna(subset=required).copy()
 
-    LOG.info(f"Model rows (after dropping missing): {df_model.shape[0]}")
+    LOG.info(f"Model rows after cleaning: {df_model.shape[0]}")
 
     return df_model
 
@@ -110,7 +111,10 @@ def split_data(
     y: pd.Series = df_model[TARGET_COL]
 
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=TEST_SIZE, random_state=RANDOM_STATE, stratify=y
+        X,
+        y,
+        test_size=TEST_SIZE,
+        random_state=RANDOM_STATE,
     )
 
     LOG.info(f"Train instances: {len(X_train)}")
@@ -123,8 +127,8 @@ def split_data(
 
 
 def train_model(X_train: pd.DataFrame, y_train: pd.Series) -> RandomForestRegressor:
-    """Train a RandomForestClassifier on the training data."""
-    LOG.info(f"Training RandomForestClassifier on {len(X_train)} instances")
+    """Train a RandomForestRegressor on the training data."""
+    LOG.info(f"Training RandomForestRegressor on {len(X_train)} instances")
 
     model = RandomForestRegressor(n_estimators=200, random_state=RANDOM_STATE)
     model.fit(X_train, y_train)

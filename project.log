@@ -498,3 +498,95 @@ dtype: int64
 2026-08-07 15:42:50 | INFO | M06 | cwd=.
 2026-08-07 15:42:50 | INFO | M06 | github_actions=False
 2026-08-07 15:42:50 | INFO | M06 | Loading dataset: Medical Cost Prediction
+2026-08-07 15:43:25 | INFO | M06 | === RUN START ===
+2026-08-07 15:43:25 | INFO | M06 | project=M06
+2026-08-07 15:43:25 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 15:43:25 | INFO | M06 | python=3.14.5
+2026-08-07 15:43:25 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 15:43:25 | INFO | M06 | shell=zsh
+2026-08-07 15:43:25 | INFO | M06 | cwd=.
+2026-08-07 15:43:25 | INFO | M06 | github_actions=False
+2026-08-07 15:43:25 | INFO | M06 | Loading dataset: Medical Cost Prediction
+2026-08-07 15:45:13 | INFO | M06 | === RUN START ===
+2026-08-07 15:45:13 | INFO | M06 | project=M06
+2026-08-07 15:45:13 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 15:45:13 | INFO | M06 | python=3.14.5
+2026-08-07 15:45:13 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 15:45:13 | INFO | M06 | shell=zsh
+2026-08-07 15:45:13 | INFO | M06 | cwd=.
+2026-08-07 15:45:13 | INFO | M06 | github_actions=False
+2026-08-07 15:45:13 | INFO | M06 | Loading dataset: Medical Cost Prediction
+2026-08-07 15:46:14 | INFO | M06 | === RUN START ===
+2026-08-07 15:46:14 | INFO | M06 | project=M06
+2026-08-07 15:46:14 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 15:46:14 | INFO | M06 | python=3.14.5
+2026-08-07 15:46:14 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 15:46:14 | INFO | M06 | shell=zsh
+2026-08-07 15:46:14 | INFO | M06 | cwd=.
+2026-08-07 15:46:14 | INFO | M06 | github_actions=False
+2026-08-07 15:46:14 | INFO | M06 | Loading dataset: Medical Cost Prediction
+2026-08-07 15:46:14 | INFO | M06 | Loaded: 5000 rows (instances), 20 columns
+2026-08-07 15:46:14 | INFO | M06 | Load data.................
+2026-08-07 15:46:14 | INFO | M06 | Loading dataset: Medical Cost Prediction
+2026-08-07 15:48:57 | INFO | M06 | === RUN START ===
+2026-08-07 15:48:57 | INFO | M06 | project=M06
+2026-08-07 15:48:57 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 15:48:57 | INFO | M06 | python=3.14.5
+2026-08-07 15:48:57 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 15:48:57 | INFO | M06 | shell=zsh
+2026-08-07 15:48:57 | INFO | M06 | cwd=.
+2026-08-07 15:48:57 | INFO | M06 | github_actions=False
+2026-08-07 15:48:57 | INFO | M06 | Load data.................
+2026-08-07 15:48:57 | INFO | M06 | Loading dataset: Medical Cost Prediction
+2026-08-07 15:48:58 | INFO | M06 | Loaded: 5000 rows (instances), 20 columns
+2026-08-07 15:48:58 | INFO | M06 | Model rows after cleaning: 0
+2026-08-07 15:48:58 | INFO | M06 | Split data................
+2026-08-07 15:51:22 | INFO | M06 | === RUN START ===
+2026-08-07 15:51:22 | INFO | M06 | project=M06
+2026-08-07 15:51:22 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 15:51:22 | INFO | M06 | python=3.14.5
+2026-08-07 15:51:22 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 15:51:22 | INFO | M06 | shell=zsh
+2026-08-07 15:51:22 | INFO | M06 | cwd=.
+2026-08-07 15:51:22 | INFO | M06 | github_actions=False
+2026-08-07 15:51:22 | INFO | M06 | Load data.................
+2026-08-07 15:51:22 | INFO | M06 | Loading dataset: Medical Cost Prediction
+2026-08-07 15:51:22 | INFO | M06 | Loaded: 5000 rows (instances), 20 columns
+2026-08-07 15:51:22 | INFO | M06 | Model rows after cleaning: 0
+2026-08-07 15:51:22 | INFO | M06 | Split data................
+2026-08-07 15:53:16 | INFO | M06 | === RUN START ===
+2026-08-07 15:53:16 | INFO | M06 | project=M06
+2026-08-07 15:53:16 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 15:53:16 | INFO | M06 | python=3.14.5
+2026-08-07 15:53:16 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 15:53:16 | INFO | M06 | shell=zsh
+2026-08-07 15:53:16 | INFO | M06 | cwd=.
+2026-08-07 15:53:16 | INFO | M06 | github_actions=False
+2026-08-07 15:53:16 | INFO | M06 | Load data.................
+2026-08-07 15:53:16 | INFO | M06 | Loading dataset: Medical Cost Prediction
+2026-08-07 15:53:16 | INFO | M06 | Loaded: 5000 rows (instances), 20 columns
+2026-08-07 15:53:16 | INFO | M06 | Model rows after cleaning: 5000
+2026-08-07 15:53:16 | INFO | M06 | Split data................
+2026-08-07 15:53:16 | INFO | M06 | Train instances: 4000
+2026-08-07 15:53:16 | INFO | M06 | Test instances:  1000
+2026-08-07 15:53:16 | INFO | M06 | Train model...............
+2026-08-07 15:53:16 | INFO | M06 | Training RandomForestRegressor on 4000 instances
+2026-08-07 15:53:19 | INFO | M06 | Training complete
+2026-08-07 15:53:19 | INFO | M06 | Evaluate model............
+2026-08-07 15:53:19 | INFO | M06 | Test MAE:  $5,114.45
+2026-08-07 15:53:19 | INFO | M06 | Test RMSE: $6,612.79
+2026-08-07 15:53:19 | INFO | M06 | Test R²:   0.103
+2026-08-07 15:53:19 | INFO | M06 | Save model................
+2026-08-07 15:53:20 | INFO | M06 | Saved model to: artifacts/model.joblib
+2026-08-07 15:53:20 | INFO | M06 | Summarize.................
+2026-08-07 15:53:20 | INFO | M06 | ========================
+2026-08-07 15:53:20 | INFO | M06 | SUMMARY
+2026-08-07 15:53:20 | INFO | M06 | ========================
+2026-08-07 15:53:20 | INFO | M06 | Dataset:  Medical Cost Prediction
+2026-08-07 15:53:20 | INFO | M06 | Target:   annual_medical_cost
+2026-08-07 15:53:20 | INFO | M06 | Features: ['age', 'bmi', 'smoker', 'diabetes', 'hypertension', 'heart_disease', 'doctor_visits_per_year', 'hospital_admissions', 'medication_count', 'previous_year_cost']
+2026-08-07 15:53:20 | INFO | M06 | Artifact: artifacts/model.joblib
+2026-08-07 15:53:20 | INFO | M06 | ========================
+2026-08-07 15:53:20 | INFO | M06 | ========================
+2026-08-07 15:53:20 | INFO | M06 | Executed successfully!
+2026-08-07 15:53:20 | INFO | M06 | ========================
