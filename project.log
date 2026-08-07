@@ -691,3 +691,13 @@ dtype: int64
 2026-08-07 17:06:39 | INFO | M06 | Loading model from: artifacts/model.joblib
 2026-08-07 17:06:40 | INFO | M06 | Model loaded successfully
 2026-08-07 17:06:42 | INFO | M06 | Prediction made from features [45.0, 31.2, 0.0, 1.0, 1.0, 0.0, 4.0, 1.0, 3.0, 8500.0]: 7855.437550000008
+2026-08-07 17:12:52 | INFO | M06 | === RUN START ===
+2026-08-07 17:12:52 | INFO | M06 | project=M06
+2026-08-07 17:12:52 | INFO | M06 | repo_dir=ml-06-serving
+2026-08-07 17:12:52 | INFO | M06 | python=3.14.5
+2026-08-07 17:12:52 | INFO | M06 | os=Darwin 20.6.0
+2026-08-07 17:12:52 | INFO | M06 | shell=zsh
+2026-08-07 17:12:52 | INFO | M06 | cwd=.
+2026-08-07 17:12:52 | INFO | M06 | github_actions=False
+2026-08-07 17:12:52 | INFO | M06 | Loading model from: artifacts/model.joblib
+2026-08-07 17:12:52 | INFO | M06 | Model loaded successfully
