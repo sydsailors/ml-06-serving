@@ -39,7 +39,7 @@ If Windows (PowerShell), use ` instead of \ for line continuation:
     curl -X POST http://127.0.0.1:8000/predict `
          -H "Content-Type: application/json" `
          -d '{"age": 45, "bmi": 31.2, "smoker": 0, "diabetes": 1, "hypertension": 1,
-        "heart_disease": 0, "doctor_visits_per_year": 4, "hospital_admissions": 1, "medication_count": 3, "previous_year_cost": 8500,}'
+        "heart_disease": 0, "doctor_visits_per_year": 4, "hospital_admissions": 1, "medication_count": 3, "previous_year_cost": 8500}'
 
 """
 
