@@ -30,19 +30,15 @@ to get the example projects running on your machine.
 
 ## Phase 4. Technical Modification
 
-Describe your small technical modification to the example project.
+For Phase 4, I copied `serve_case.py` and renamed it `serve_sailors.py`. I modified my FastAPI
+serving module to log the input features and prediction when the prediction function is called.
+This modification makes it easier to monitor and troubleshoot since it allows you to see what
+information is being provided to the model and what prediction it returned. The output in the
+`server` terminal shows as follows:
 
-Include:
-
-- What you changed
-- Why you chose that change
-- How you verified that it worked
-- What result, output, chart, metric, or behavior confirmed the change
-
-Compared with the example project,
-explain what is different and why the change matters.
-
-Was it easy, or surprisingly challenging and why do you think so?
+```shell
+2026-08-07 13:54:10 | INFO | M06 | Prediction made from features [39.1, 18.7, 181.0, 3750.0]: Adelie
+```
 
 ## Phase 5. Custom Project
 
